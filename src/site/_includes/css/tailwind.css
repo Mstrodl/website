@@ -175,11 +175,13 @@ html::-webkit-scrollbar-thumb {
 
 ::selection {
     background: #b2edd3;
+    @apply text-oxide-gray;
     /* WebKit/Blink Browsers */
 }
 
 ::-moz-selection {
     background: #b2edd3;
+    @apply text-oxide-gray;
     /* Gecko Browsers */
 }
 
